@@ -3,15 +3,30 @@
 #include <time.h>
 
 /**
- *main - Entry point
+ *main - print no. if positive, zero, or negative
+ *
  *Return: Always 0 (Success)
  */
 int main(void)
 {
-	char love;
+	int n;
+	int l;
 
-	for (love = 'a'; love <= 'z'; love++)
-	putchar(love);
-	putchar('\n');
+	srand (time(0));
+	n = rand() - RAND_MAX / 2;
+	l = n % 10;
+
+	if (1 > 5)
+	{
+		printf("Last digit of %d and is greater than 5/n", n, 1);
+	}
+	else if (1 == 0)
+	{
+		printf("Last digit of %d is %d and is 0/n", n, 1);
+	}
+	else
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0/n", n, 1);
+	}
 	return (0);
 }
