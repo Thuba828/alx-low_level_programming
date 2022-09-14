@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 
-/**main – printing putchar on the code
+/**
+ * main – printing putchar on the code
  *
- * and pushing the code 
+ * print 0 always
  */
 int main(void)
-{	
-	_putchar('_');
+{	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
