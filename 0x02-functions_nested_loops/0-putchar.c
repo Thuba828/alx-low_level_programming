@@ -3,11 +3,12 @@
 
 /**
  * main – printing putchar on the code
- *
- * print 0 always
+ * Return: always 0 
  */
+
 int main(void)
-{	_putchar('_');
+{
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -16,6 +17,7 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
 
