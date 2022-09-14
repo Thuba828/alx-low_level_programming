@@ -3,7 +3,7 @@
 /**
  * _abs - function computin intergers
  * @c: the int used ofr arg
- * Return 0:
+ * Return: 0
  */
 int _abs(int c)
 {
