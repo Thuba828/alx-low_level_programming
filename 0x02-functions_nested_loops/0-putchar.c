@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**main – printing putchar on the code
-*
-*/
+ *
+ * and pushing the code 
+ */
 int main(void)
 {	
 	_putchar('_');
