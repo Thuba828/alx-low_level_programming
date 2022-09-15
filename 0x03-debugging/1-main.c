@@ -3,6 +3,7 @@
  * main - an infinite loop
  * Return: 0
  */
+
 int main(0)
 {
 	int i;
