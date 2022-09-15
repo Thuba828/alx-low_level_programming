@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _isupper - checks for uppercase characters
- * @c: character is to be tested
- * Return: 1 if uppercase, return 0 if not
+ * main - check the code.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
