@@ -33,6 +33,7 @@ int main(void)
 			{
 				printf("Buzz");
 			}
+		}
 			else
 			{
 				printf("%d ", num);
@@ -40,5 +41,4 @@ int main(void)
 		}
 		printf("\n");
 		return (0);
-	}
 }
