@@ -2,12 +2,10 @@
 #include <stdio.h>
 
 /**
-*main - prints either number
-*or fizz or buzz or fizzbuzz
-*
-*
-*Return: 0
-*/
+ * main - prints either number
+ * or fizz or buzz or fizzbuzz
+ * Return: 0
+ */
 
 int main(void)
 {
