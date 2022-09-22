@@ -35,7 +35,7 @@ void print_buffer(char *b, int size)
 			{
 				while (++j <= i + 10)
 					printf(" ");
-				print(" ");
+				printf(" ");
 			}
 		}
 		for (j = i; j < i + 9 && j < size; j++)
